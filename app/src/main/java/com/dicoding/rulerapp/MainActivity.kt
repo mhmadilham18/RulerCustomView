@@ -11,16 +11,16 @@ class MainActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
 
 
-    private val minValue = 100
+    private val minValue = 60
     private val maxValue = 250
-    private val defaultValue = 170
+    private val defaultValue = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         recyclerView = findViewById(R.id.rulerRecyclerView)
-//        mengambil view value (tinggi : 140)
+//        mengambil view value (tinggi : 165)
         val valueText = findViewById<TextView>(R.id.valueText)
 
 
