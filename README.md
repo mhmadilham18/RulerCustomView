@@ -31,5 +31,4 @@ Berikut tampilan antarmukanya:
 
 ---
 
-## 🛠 Struktur File Penting
 
